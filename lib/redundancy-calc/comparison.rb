@@ -1,5 +1,4 @@
 module AntiRedundancy
-
 module ComparisonMethods
 
 def hierarchical_comparison(other, fields)
@@ -14,5 +13,4 @@ def hierarchical_comparison(other, fields)
 end
 
 end
-
 end

@@ -1,13 +1,12 @@
-<<<<<<< HEAD
-# Antiredundancy
+# Redundancy-calc
 
-TODO: Write a gem description
+This project contains utilities to evaluate redundancy
 
-## Installation
+## Installation using gem
 
 Add this line to your application's Gemfile:
 
-    gem 'antiredundancy'
+    gem 'redundancy-calc'
 
 And then execute:
 
@@ -16,6 +15,12 @@ And then execute:
 Or install it yourself as:
 
     $ gem install antiredundancy
+
+## Installation from source
+
+Or get the source and run
+	
+	rake build install
 
 ## Usage
 
@@ -28,9 +33,3 @@ TODO: Write usage instructions here
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
-=======
-antiredundancy
-==============
-
-Code to reduce redundancy in ruby
->>>>>>> 0cc4079417f80738f23de796891a3279fb40476b
