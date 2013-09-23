@@ -1,5 +1,4 @@
-require 'test/unit'
-require 'antiredundancy'
+require 'helper'
 
 class MyDate
 	include ::AntiRedundancy::ComparisonMethods

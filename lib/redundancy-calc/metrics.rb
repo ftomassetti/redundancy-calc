@@ -1,5 +1,7 @@
 require 'lightmodels'
 
+module RedundancyCalc
+
 def terms_map_redundancy(terms_map)
         redundancy = 0
         terms_map.each do |t,c|
@@ -21,4 +23,6 @@ end
 def calc_node_redundancy_and_density(node,language_info_logic)
         terms_map = LightModels::InfoExtraction.terms_map(language_info_logic,node)
         [terms_map_redundancy(terms_map),terms_map_density_of_redundancy(terms_map)]
+end
+
 end

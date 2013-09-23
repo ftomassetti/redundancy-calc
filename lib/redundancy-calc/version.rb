@@ -1,3 +1,3 @@
-module Antiredundancy
+module RedundancyCalc
   VERSION = "0.0.1"
 end
