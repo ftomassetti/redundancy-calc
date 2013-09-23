@@ -28,7 +28,7 @@ Or get the source and run
 
 Example:
 
-        redund csv ClassMethodDeclaration some-dir
+	redund csv ClassMethodDeclaration some-dir
 
 will print out a csv file with all the information for nodes of Java class methods contained in the given dir
 
