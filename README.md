@@ -2,6 +2,8 @@
 
 This project contains utilities to evaluate redundancy
 
+NOTE: JRuby is required because some of the parser used are Java libraries.
+
 ## Installation using gem
 
 Add this line to your application's Gemfile:
@@ -24,7 +26,11 @@ Or get the source and run
 
 ## Usage
 
-TODO: Write usage instructions here
+Example:
+
+redund csv ClassMethodDeclaration some-dir
+
+will print out a csv file with all the information for nodes of Java class methods contained in the given dir
 
 ## Contributing
 
