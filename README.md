@@ -28,14 +28,10 @@ Or get the source and run
 
 Example:
 
-redund csv ClassMethodDeclaration some-dir
+        redund csv ClassMethodDeclaration some-dir
 
 will print out a csv file with all the information for nodes of Java class methods contained in the given dir
 
 ## Contributing
 
-1. Fork it
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create new Pull Request
+Any kind of contributions are EXTREMELY welcome, just drop me a line, open an issue, send a pidgeon
